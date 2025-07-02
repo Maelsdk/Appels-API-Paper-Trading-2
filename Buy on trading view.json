@@ -1,0 +1,34 @@
+{
+  "Name": "Buy on trading view",
+  "CreationDate": "2025-7-2",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://fr.tradingview.com/chart/lAfrpmmF/?symbol=BITSTAMP%3ABTCUSD",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div[2]/div/div[5]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div[3]/span[2]/span[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div[2]/div/div[5]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div[3]/span[2]/span[2]",
+        "xpath=//div[3]/span[2]/span[2]",
+        "css=body > div.js-rootresizer__contents > div > div.layout__area--center.no-border-bottom-right-radius.no-border-top-right-radius.unselectable > div.chart-container.single-visible.top-full-width-chart.active > div.chart-container-border > div > div.chart-markup-table > div:nth-child(1) > div.chart-markup-table.pane > div > div.legend-l31H9iuA.noWrap-l31H9iuA.wrappable-l31H9iuA > div.legendMainSourceWrapper-l31H9iuA > div.container-hw_3o_pb > div.buttonsWrapper-hw_3o_pb.notAvailableOnMobile-hw_3o_pb > div.sellBuyAndPresetsButtonsContainer-hw_3o_pb > div.sellBuyButtonsContainer-hw_3o_pb > div.apply-common-tooltip.button-hw_3o_pb.buyButton-hw_3o_pb > span.buttonTextWrapper-hw_3o_pb > span.title-hw_3o_pb"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div[2]/div/div[8]/div[3]/div/div/div/div[4]/button/div/span[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div[2]/div/div[8]/div[3]/div/div/div/div[4]/button/div/span[2]",
+        "xpath=//button/div/span[2]",
+        "css=body > div.js-rootresizer__contents > div > div.layout__area--tradingpanel.rootContainer-fxQkGV8J.rootContainer-LlInYWMC > div.trading-panel-content-LlInYWMC.trading-panel-content > div > div > div > div.doneButton-F15FKlrH > button > div > span.secondaryText-D4RPB3ZC"
+      ],
+      "Description": ""
+    }
+  ]
+}
